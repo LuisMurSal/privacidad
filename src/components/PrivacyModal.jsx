@@ -61,13 +61,15 @@ const PrivacyModal = ({ onAccept }) => {
       <h2>Aviso de Privacidad sobre Cookies</h2>
       <p>
         Este sitio web utiliza cookies para mejorar la experiencia del usuario
-        y realizar análisis de tráfico. Al continuar navegando, aceptas el uso
+        y realizar un análisis de tráfico. Al continuar navegando, aceptas el uso
         de estas cookies.
       </p>
       <p>
         Puedes cambiar la configuración de cookies en cualquier momento en la
         configuración de tu navegador, pero ten en cuenta que algunas
         funcionalidades podrían no estar disponibles si desactivas las cookies.
+        ducho todo esto, puedes disfrutas de la pagina y de ver si se apiadan del
+        estudiante que realizo la actividad :D
       </p>
       <button onClick={() => setShowPrivacyType('simplified')}>
         Regresar al Aviso Simplificado
