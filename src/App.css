@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+/* General */
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  background-color: #121212; /* Fondo oscuro */
+  color: #e0e0e0; /* Texto claro */
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8); /* Más oscuro y futurista */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #1e1e1e; /* Fondo más oscuro */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3); /* Resplandor futurista */
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  border: 2px solid #ffffff; /* Borde blanco */
+}
+
+.modal-content h2 {
+  color: #ffffff; /* Títulos blancos */
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.modal-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Botones en el Modal */
+.modal-content button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  background-color: #d3d3d3; /* Gris claro */
+  color: #121212;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.modal-content button:hover {
+  background-color: #b0b0b0; /* Gris más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Efecto de agrandamiento */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Sombra suave al pasar el cursor */
+}
+
+/* Formulario */
+.data-form {
+  background: #1e1e1e;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.data-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff; /* Texto blanco */
+  font-weight: bold;
+}
+
+.data-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.data-form input:focus {
+  outline: none;
+  border-color: #ffffff; /* Borde blanco en el enfoque */
+}
+
+.data-form button {
+  padding: 10px 20px;
+  background-color: #d3d3d3; /* Gris claro */
+  color: #121212;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.data-form button:hover {
+  background-color: #b0b0b0; /* Gris más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Ampliación al pasar el mouse */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
